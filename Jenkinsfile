@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Slave' }
+    agent { label 'Slave-1' }
 
     parameters {
         booleanParam(name: 'SKIP_TEST', defaultValue: false, description: 'Skip the test stage')
